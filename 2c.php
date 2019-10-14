@@ -4,19 +4,23 @@ function operaciones($a,$b){
 	$a=5;
 	$b=6;
 	*/
-	echo 'Primer número='.$a;
-	echo '</br>';
-	echo 'Segundo número='.$b;
-	echo '</br>';
-	echo '</br>';
-	echo 'Suma: '.$a.'+'.$b.'='.($a+$b);
-	echo '</br>';
-	echo 'Resta: '.$a.'-'.$b.'='.($a-$b);
-	echo '</br>';
-	echo 'Multiplicación: '.$a.'x'.$b.'='.($a*$b);
-	echo '</br>';
-	echo 'División: '.$a.'/'.$b.'='.($a/$b);
-	echo '</br>';
+	$r=null;
+	$r=$r.'Primer número='.$a;
+	$r=$r.'</br>';
+	$r=$r.'Segundo número='.$b;
+	$r=$r.'</br>';
+	$r=$r.'</br>';
+	$r=$r.'Suma: '.$a.'+'.$b.'='.($a+$b);
+	$r=$r.'</br>';
+	$r=$r.'Resta: '.$a.'-'.$b.'='.($a-$b);
+	$r=$r.'</br>';
+	$r=$r.'Multiplicación: '.$a.'x'.$b.'='.($a*$b);
+	$r=$r.'</br>';
+	$r=$r.'División: '.$a.'/'.$b.'='.($a/$b);
+	$r=$r.'</br>';
+	return $r;
 }
-operaciones(5,6);
+$s=operaciones(5,6);
+echo $s;
+echo operaciones(7,8);
 ?>
