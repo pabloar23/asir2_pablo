@@ -14,7 +14,7 @@
 </form>
 
 <form>
-	<button href="http://localhost/asir2_alvaro/triangulos_c.php">Poner a 0 los valores.</button>
+	<button href="http://localhost/asir2_pablo/triangulos_c.php">Poner a 0 los valores.</button>
 	</br>
 	</br>
 </form>
